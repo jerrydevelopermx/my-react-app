@@ -8,12 +8,30 @@ class UserList extends React.Component {
     this.props.history.push("/users/add/");
   }
 
+  goToBlog() {
+    this.props.history.push("/blog");
+  }
+
   render() {
     return (
       <div className="main-div">
-        <button className="button button-new" onClick={(e) => this.addUser(e)}>
-          Add User
-        </button>
+        <div className="control-div">
+          <button
+            id="addButton"
+            className="button button-new"
+            onClick={(e) => this.addUser(e)}
+          >
+            Add User
+          </button>
+          <button
+            id="blogButton"
+            className="button button-blog"
+            onClick={() => this.goToBlog()}
+          >
+            Go to Blog Page
+          </button>
+        </div>
+
         <table>
           <thead>
             <tr>

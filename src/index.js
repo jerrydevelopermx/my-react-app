@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import UserEdit from "./components/UserEdit";
 import UserAdd from "./components/UserAdd";
+import BlogPage from "./components/BlogPage";
 import "./App.css";
 import "./index.css";
 
@@ -17,6 +18,7 @@ const routing = (
       <Route exact path="/" component={App} />
       <Route path="/users/edit/:id" component={UserEdit} />
       <Route path="/users/add" component={UserAdd} />
+      <Route path="/blog" component={BlogPage} />
     </div>
   </Router>
 );

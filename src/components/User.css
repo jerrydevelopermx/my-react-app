@@ -1,6 +1,9 @@
 .main-div {
   text-align: left;
 }
+.control-div {
+  text-align: center;
+}
 .form-div {
   text-align: center;
 }
@@ -66,6 +69,13 @@ td {
 }
 .button-delete:hover {
   background-color: #ff1a1a;
+}
+
+.button-blog {
+  background-color: #1a1a59;
+}
+.button-blog:hover {
+  background-color: #5e5e8a;
 }
 
 .status-column {
