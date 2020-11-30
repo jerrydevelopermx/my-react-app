@@ -23,7 +23,10 @@ For this test, you need to use and implement services from [Go Rest](https://gor
 ## Resources to use:
 
 - https://gorest.co.in/public-api/users
-
 - https://gorest.co.in/public-api/posts
-
 - https://gorest.co.in/public-api/comments
+
+## Nested Resources
+
+- GET, POST, PUT /public-api/users/USER_ID/posts
+- GET, POST, PUT /public-api/posts/USER_ID/comments
